@@ -15,7 +15,9 @@ app.get('/', async (req, res) => {
 })
 
 app.post('/xumm/init', async (req, res) => {
-  // Generate the XUMM Payment Request and Send the Link
+  // Generate the XUMM Payment Request and Send the Link.
+  // In future we will add integrations to other XRP wallets. Customer will have a choice to select their wallet, 
+  // and payment link will open that wallet in a seamless transcation.
   // via SMS to the customer
 
   const { amount, recepient, user_token } = req.body

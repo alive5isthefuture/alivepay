@@ -1,6 +1,6 @@
 # alivepay
 
-AlivePay Description here test
+AlivePay is the ability to take payments over any chat channel to accelerate the sales process. For this project, we're developing endpoints for transacting with multiple wallets (starting with XUMM) and multiple chat communication channels (starting with live chat, SMS).
 
 
 # usage
